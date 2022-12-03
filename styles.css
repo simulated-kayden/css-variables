@@ -1,0 +1,40 @@
+:root {
+  --border: solid 2px #111;
+  --color: red;
+}
+
+body {
+  margin: 20px;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: var(--border);
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: var(--border);
+  background-color: var(--color);
+}
+
+.rectangle {
+  width: 200px;
+  height: 100px;
+  border: var(--border);
+  background-color: var(--color);
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: var(--border);
+  background-color: var(--color);
+}
